@@ -1,18 +1,3 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,11 +5,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.jpeg" />
 
   <!-- Put your site title here -->
   <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
+    Tariq Islam | A Software Developer based in United States.
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
@@ -42,7 +27,7 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
@@ -56,10 +41,10 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
+          <span>Tariq Islam</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
+        <p>A Software Developer </p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
@@ -78,15 +63,138 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>Facial Recognition Application</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                Application that can recognize faces in any image.
               </p>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+                <li>React</li>
+                <li>NodeJS</li>
+                <li>ExpressJS</li>
+                <li>PostgreSQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://face-recogapp.herokuapp.com/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/tariq7t/face-recognition-react" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Extraterrestrial Life Evaluator- Earth Class ELE-E</h3>
+              <p>
+                Autonomous Object Detecting & Following Robot
+                Used OpenCV Library in Python to implement algorithms for the movement of robot. 
+                The robot detects an object pre-specified and proceeds to continuously follow it while remaining at a distance.
+
+                Implemented object recognition though OpenCV
+                Operated robot on a Raspberry PI powered with portable charger as power source. Used a Logitech webcam for video input.
+                Motor controllers were separately powered with lithium batteries
+                The code is executed by SSH-ing from an external device into the Pi.
+                After object recognition is done, my algorithm measures the area of the object and proceeds to follow it if area is smaller than a specified amount.
+                The object is kept at the center of camera with a simple centroid algorithm. If object moves past center of frame, my robot will turn so object comes back at center.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>OpenCV</li>
+                <li>RaspberryPi</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/tariq7t/Object-detect-following-robot" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/elee.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Federated Insurance Salary Mangement Application</h3>
+              <p>
+                Application that allows supervisors of Federated Insurance company to 
+                view & modify employee’s current and projected salary/performance.
+                • Coded in Java using Model-View-Controller architecture and specialized in server-side development. 
+                • Led team in creating Controllers and establish communication between Controller & Database.
+              </p>
+              <ul class="work__list">
+                <li>Java</li>
+                <li>Spring</li>
+                <li>JSP</li>
+              </ul>
+
+              <div class="work__links">
+                
+                <a href="https://github.com/tariq7t/Salary-mgmt-app">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+
+          
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Django REST Application</h3>
+              <p>
+                Autonomous Object Detecting & Following Robot
+                • Used Python to implement algorithms for the movement of robot
+                • Implemented object recognition though OpenCV and operated robot on a Raspberry PI powered
+                  by batteries that was SSH-d from a local device.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>NodeJS</li>
+                <li>ExpressJS</li>
+                <li>PostgreSQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>  
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Password Generator</h3>
+              <p>
+                Generates password
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Django</li>
+                <li>ExpressJS</li>
+                <li>PostgreSQL</li>
               </ul>
 
               <div class="work__links">
@@ -105,44 +213,16 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>Goodhue County Employee Directory Application</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
                 eius.
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Notificator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>ASP.NET</li>
+                <li>Angular</li>
+                <li>MSSQL</li>
+                <li>IIS</li>
               </ul>
 
               <div class="work__links">
@@ -164,12 +244,13 @@
 
     <!-- ***** Clients ***** -->
 
-    <section class="client" id="clients">
+    <!-- <section class="client" id="clients">
       <div class="row">
         <h2>Clients</h2>
         <div class="client__logos">
           <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+
+          <!-- <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
           <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
           <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
           <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
@@ -177,7 +258,7 @@
           <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
         </div>
       </div>
-    </section>
+    </section>  -->
 
     <!-- ***** About ***** -->
 
@@ -188,18 +269,17 @@
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              Senior student with a passion for innovation, technology and entrepreneurship. 
+              Strong communication skills backed by 4 years of experience 
+              in student leadership and an endless appetite to seek more knowledge about technology
             </p>
             <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+            <a href="./images/Tariq Islam.pdf" class="btn">My Resume</a>
           </div>
 
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+            <img class="about__photo" src="./images/tariq-islam.jpeg" alt="" />
           </div>
         </div>
       </div>
@@ -221,7 +301,7 @@
           me is via an email.
         </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="mailto:md-tariqul.islam@mnsu.edu" class="btn">md-tariqul.islam@mnsu.edu</a>
       </div>
     </div>
   </section>
@@ -238,17 +318,17 @@
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://github.com/tariq7t" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+          <a href="https://codepen.io/tariq7t" title="Link to Codepen Profile">
             <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+          <a href="https://www.linkedin.com/in/tariq-islam-6005128a/">
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
