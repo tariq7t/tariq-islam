@@ -121,7 +121,8 @@ img {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
@@ -156,6 +157,10 @@ h2::after {
 
 h3 {
     font-size: var(--font-size-medium-1);
+    margin-bottom: var(--gutter-small);
+}
+h4 {
+    font-size: var(--font-size-medium-2);
     margin-bottom: var(--gutter-small);
 }
 
