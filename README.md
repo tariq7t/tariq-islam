@@ -1,6 +1,6 @@
 # Tariq Islam's Portfolio
 
-Welcome to my portfolio's github page. /n
+Welcome to my portfolio's github page.
 This website was made using HTML5, CSS and JavaScript.
 
 To view it live, visit:
